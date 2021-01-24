@@ -1,9 +1,4 @@
 describe("appendToString", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // Make sure appendToString is a valid JavaScript function
-    expect(typeof appendToString).toBe('function')
-  });
   it("returns_a_string_with_appended_characters", function () {
     // Failure message:
     // Make sure you return a new string with the new characters appended to the original string
@@ -16,11 +11,6 @@ describe("appendToString", function () {
 })
 describe("prependToString", function () {
 
-  it("is_a_function", function () {
-    // Failure message:
-    // prependToString is a function
-    expect(typeof prependToString).toBe('function')
-  });
   it("adds_the_second_parameter_to_the_front_of_the_string", function () {
     // Failure message:
     // This test has no failure messages
@@ -30,11 +20,6 @@ describe("prependToString", function () {
   });
 })
 describe("charAt", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // charAt is a function
-    expect(typeof charAt).toBe('function')
-  });
   it("returns_the_character_at_an_index_or_an_empty_string", function () {
     // Failure message:
     // This test has no failure messages
@@ -43,11 +28,6 @@ describe("charAt", function () {
   });
 })
 describe("stringIncludes", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // stringIncludes is a function
-    expect(typeof stringIncludes).toBe('function')
-  });
   it("returns_true_if_the_value_is_in_the_array_otherwise_it_returns_false", function () {
     // Failure message:
     // This test has no failure messages
@@ -57,11 +37,6 @@ describe("stringIncludes", function () {
 })
 describe("stringIndexOf", function () {
 
-  it("is_a_function", function () {
-    // Failure message:
-    // Make sure stringIndexOf is a function
-    expect(typeof stringIndexOf).toBe('function')
-  });
   it("returns_the_correct_index_or_negative_one", function () {
     // Failure message:
     // This test has no failure messages
@@ -71,11 +46,6 @@ describe("stringIndexOf", function () {
 })
 describe("stringLastIndexOf", function () {
 
-  it("is_a_function", function () {
-    // Failure message:
-    // This test has no failure messages
-    expect(typeof stringLastIndexOf).toBe('function')
-  });
   it("returns_the_last_index_or_negative_one", function () {
     // Failure message:
     // This test has no failure messages
@@ -85,11 +55,6 @@ describe("stringLastIndexOf", function () {
 
 })
 describe("repeat", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // repeat is a function
-    expect(typeof repeat).toBe('function')
-  });
   it("repeats_the_string_a_certain_number_of_times", function () {
     // Failure message:
     // This test has no failure messages
@@ -99,11 +64,6 @@ describe("repeat", function () {
   });
 })
 describe("removeFromString", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // remove from string is a function
-    expect(typeof removeFromString).toBe('function')
-  });
   it("returns_a_new_string_with_characters_removed", function () {
     // Failure message:
     // This test has no failure messages
@@ -116,11 +76,6 @@ describe("removeFromString", function () {
 
 })
 describe("includes", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // includes is a function
-    expect(typeof includes).toBe('function')
-  });
   it("returns_true_if_the_value_is_in_the_array_otherwise_false", function () {
     // Failure message:
     // This test has no failure messages
@@ -130,11 +85,6 @@ describe("includes", function () {
   });
 })
 describe("indexOf", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // Make sure indexOf is a function
-    expect(typeof indexOf).toBe('function')
-  });
   it("returns_the_index_at_which_the_value_is_or_negative_1_if_not_found", function () {
     // Failure message:
     // This test has no failure messages
@@ -150,11 +100,6 @@ describe("indexOf", function () {
 
 })
 describe("lastIndexOf", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // indexOf is a function
-    expect(typeof lastIndexOf).toBe('function')
-  });
   it("returns_the_last_index_at_which_a_value_is_at_or_negative_one", function () {
     // Failure message:
     // This test has no failure messages
@@ -165,11 +110,6 @@ describe("lastIndexOf", function () {
 })
 describe("max", function () {
 
-  it("is_a_function", function () {
-    // Failure message:
-    // max is a function
-    expect(typeof max).toBe('function')
-  });
   it("returns_the_highest_number", function () {
     // Failure message:
     // This test has no failure messages
@@ -179,11 +119,6 @@ describe("max", function () {
   });
 })
 describe("min", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // min is a function
-    expect(typeof min).toBe('function')
-  });
   it("returns_the_lowest_value_in_an_array_of_numbers", function () {
     // Failure message:
     // This test has no failure messages
@@ -193,11 +128,6 @@ describe("min", function () {
 
 })
 describe("slice", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // slice is a function
-    expect(typeof slice).toBe('function')
-  });
   it("slices_from_the_second_to_third_parameter", function () {
     // Failure message:
     // This test has no failure messages
@@ -208,11 +138,6 @@ describe("slice", function () {
   });
 })
 describe("countValues", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // countValues is a function
-    expect(typeof countValues).toBe('function')
-  });
   it("returns_the_number_of_times_a_value_appears_in_an_array", function () {
     // Failure message:
     // This test has no failure messages
@@ -234,19 +159,9 @@ describe("keys", function () {
     var obj3 = {}
     expect(keys(obj3)).toEqual([])
   });
-  it("is_a_function", function () {
-    // Failure message:
-    // Make sure keys is a function
-    expect(typeof keys).toBe('function')
-  });
 })
 describe("values", function () {
 
-  it("is_a_function", function () {
-    // Failure message:
-    // make sure values is a function
-    expect(typeof values).toBe('function')
-  });
   it("returns_an_array_of_all_the_values_in_the_object", function () {
     // Failure message:
     // make sure you return an array of the values
@@ -262,11 +177,6 @@ describe("values", function () {
 })
 describe("squareEvenNumbers", function () {
 
-  it("is_a_function", function () {
-    // Failure message:
-    // squareEvenNumbers is a function
-    expect(typeof squareEvenNumbers).toBe('function')
-  });
   it("returns_the_sum_of_all_even_numbers_squared", function () {
     // Failure message:
     // This test has no failure messages
@@ -276,11 +186,6 @@ describe("squareEvenNumbers", function () {
   });
 })
 describe("entries", function () {
-  it("is_a_function", function () {
-    // Failure message:
-    // make sure entries is a function
-    expect(typeof entries).toBe('function')
-  });
   it("returns_an_array_of_arrays_with_keys_and_values", function () {
     // Failure message:
     // This test has no failure messages
@@ -355,11 +260,6 @@ describe("countNumbers", function () {
   });
 })
 describe("removeVowels", function () {
-  it("should_be_a_function", function () {
-    // Failure message:
-    // Make sure you write a function
-    expect(typeof removeVowels).toEqual('function');
-  });
   it("should_remove_vowels", function () {
     // Failure message:
     // Make sure your function removes the vowels in a string.
