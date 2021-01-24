@@ -1,9 +1,3 @@
----
-title:  "JavaScript Part One"
-created_at: "2016-09-06"
-author: "Elie"
----
-
 Your assignment is to write the following functions in the descriptions below - good luck!
 
 ### appendToString
