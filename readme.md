@@ -249,10 +249,10 @@ let obj = { a: 1, b: 2, c: 3 };
 keys(obj); // ["a", "b", "c"]
 
 let obj2 = { first: 'Matt', last: 'Lane' };
-keys(obj); // ["first", "last"]
+keys(obj2); // ["first", "last"]
 
 let obj3 = {};
-keys(obj); // []
+keys(obj3); // []
 ```
 
 ### values
@@ -414,7 +414,7 @@ Examples:
 ```js
 countNumbers(['a','b','3','awesome','4']); // 2
 countNumbers(['32', '55', 'awesome', 'test', '100']); // 3
-countNumbers(`[]`); // 0
+countNumbers('[]'); // 0
 countNumbers(['4','1','0','NaN']); // 3
 countNumbers(['7', '12', 'a', '', '6', '8', ' ']); // 4
 ```
