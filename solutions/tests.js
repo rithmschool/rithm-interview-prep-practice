@@ -83,7 +83,26 @@ describe("includes", function () {
     expect(includes([1, 2, 3, 4], 14)).toBe(false) // false
     expect(includes([], 14)).toBe(false) // false
   });
+
+  it("returns_true_if_the_value_is_in_the_string_otherwise_false", function () {
+    // Failure message:
+    // This test has no failure messages
+    expect(includes('abcd', 'b')).toBe(true) // true
+    expect(includes('abcd', 'e')).toBe(false) // false
+    expect(includes('', 'a')).toBe(false) // false
+    expect(includes('abcd', 'a', 2)).toBe(false) // false
+  });
+
+  it("returns_true_if_the_value_is_in_the_object_otherwise_false", function () {
+    // Failure message:
+    // This test has no failure messages
+    expect(includes({ 'a': 1, 'b': 2 }, 1)).toBe(true) // true
+    expect(includes({ 'a': 1, 'b': 2 }, 'a')).toBe(false) // false
+    expect(includes({}, 1)).toBe(false) // false
+    expect(includes({'a': 1, 'b': 2}, 1, 2)).toBe(true) // true
+  });
 })
+
 describe("indexOf", function () {
   it("returns_the_index_at_which_the_value_is_or_negative_1_if_not_found", function () {
     // Failure message:
