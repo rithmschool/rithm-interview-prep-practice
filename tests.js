@@ -89,7 +89,7 @@ describe("includes", function () {
     // This test has no failure messages
     expect(includes('abcd', 'b')).toBe(true) // true
     expect(includes('abcd', 'e')).toBe(false) // false
-    expect(includes([], 'a')).toBe(false) // false
+    expect(includes('', 'a')).toBe(false) // false
     expect(includes('abcd', 'a', 2)).toBe(false) // false
   });
 
