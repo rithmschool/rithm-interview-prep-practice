@@ -276,7 +276,7 @@ values(obj3); // []
 
 ### squareEvenNumbers
 
-Write a function called **squareEvenNumbers** which accepts an array and returns the sum of all of the even numbers in the array squared.
+Write a function called **squareEvenNumbers** which accepts an array and returns the sum of the squares of all the even numbers in the array.
 
 Examples:
 
